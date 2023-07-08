@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #616368;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+  .bg-holder {
+    /* position: absolute;
+    z-index: 10; */
+    /* background-color: bisque; */
+    /* height: 100vh;
+    width: 100vw; */
+    position: absolute;
+    background-image: url(img/PNGs/backgroundImg.png);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform, opacity, filter;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+
+  .blue-text {
+    color: #242F51;
+  }
+
+  .arrow-div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+    margin: auto;
+  }
+
+  .top-nav-margin {
+    /* margin-bottom: 7rem; */
+  }
+
+  .nav-bg-color {
+    background: #ffffffa1;
+  }
+
+ .border-start{border-left:1px solid #e3e2e5 !important}
+
+ .btnColor {
+  background: #1E00CA;
+  color: #fff;
+ }
+
+ .bgInputColor {
+  background: #1E00CA;
+ }
+
+ /* .btn :hover {
+  color: #1E00CA !important; 
+  background: #fff !important;
+ } */
+
+ .feature-margin {
+    margin: 5rem 0 0 1rem;
+ }
+
+ .form-switch {
+  padding-left: 3em;
+ }
+
+ .card-header {
+  padding: 2.5rem 1rem;
+ }
+
+ a {
+  text-decoration: none;
+ }
+
+ .carousel-control-prev,
+ .carousel-control-next {
+  position: relative;
+   background-color: #f27019; /* Change background color */
+   color: #88f60a; /* Change text color */
+   border-radius: 50%; /* Make the buttons circular */
+   font-size: 24px; /* Increase font size */
+ }
+
+ .carousel-control-prev {
+  right: 2rem;
+ }
+
+ .footer-bg {
+  background: #2a1d5e;
+ }
+
+ .cursor-pointer {
+  cursor: pointer;
+ }
+ 
+ .accordion-button, .accordion-body {
+  background-color:#F5F7FA;
+} 
+
+/* ul a {
+  text-decoration: none !important;
+} */
+
+
+  
